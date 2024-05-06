@@ -1,0 +1,23 @@
+@import '@shoelace-style/shoelace/dist/themes/light.css';
+@import '@shoelace-style/shoelace/dist/themes/dark.css';
+
+:host {
+    --background-color: var(--sl-color-neutral-0)
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: var(--background-color);
+
+    div.logo {
+        width: 50vw;
+        height: 50vh;
+        margin: auto;
+        padding: 10% 0 0;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("assets/images/logo-universal.png");
+        background-size: 100% 100%;
+        background-origin: content-box;
+    }
+}

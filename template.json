@@ -1,0 +1,7 @@
+{
+  "name": "Lit-Element and Shoelace (web components) usind esbuild",
+  "shortname": "wails-lit-shoelace-esbuild-template",
+  "author": "Christian Seifert <wails@braincompiler.de>",
+  "description": "A wails template using lit and Shoelace component library + esbuild.",
+  "helpurl": "https://github.com/Braincompiler/wails-lit-shoelace-esbuild-template"
+}

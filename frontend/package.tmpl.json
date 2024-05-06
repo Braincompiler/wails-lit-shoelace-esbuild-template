@@ -1,0 +1,28 @@
+{
+  "name": "{{.ProjectName}}",
+  "version": "1.0.0",
+  "description": "",
+  "author": "{{.AuthorName}}",
+  "main": "",
+  "scripts": {
+    "build:prod": "node scripts/prod-build.mjs",
+    "build": "node scripts/dev-build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "watch": "node scripts/watch.mjs"
+  },
+  "dependencies": {
+    "@lit/context": "^1.1.1",
+    "@lit/localize": "^0.12.1",
+    "@shoelace-style/shoelace": "^2.15.0",
+    "lit": "^3.1.3"
+  },
+  "devDependencies": {
+    "@jgoz/esbuild-plugin-typecheck": "^3.1.1",
+    "@lit/localize-tools": "^0.7.2",
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "esbuild": "^0.20.2",
+    "esbuild-plugin-copy": "^2.1.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  }
+}
