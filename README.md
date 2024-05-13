@@ -28,6 +28,14 @@ This will serve the frontend on http://localhost:3210.
 ## Building
 To build a redistributable, production mode package, use `wails build`.
 
+## Auto-import of shoelace components
+Actually, to use the shoelace components they have to be imported to make them available:
+```ts
+import '@shoelace-style/shoelace/dist/components/button/button.js';
+```
+
+This template provides an esbuild-plugin which scans the src files for used shoelace components and imports them automatically. This way the import will never be forgotten and don't need to import all components and bloat up the bundle.
+
 ## WailsContext service
 This template provides a simple context (https://lit.dev/docs/data/context/) to access the wails backend. This should help to avoid runtime errors in case the frontend is developed without the wails backend.
 
